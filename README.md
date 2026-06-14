@@ -8,7 +8,7 @@
 
 这是一个面向中文用户的本地 Agent Skill，适用于 Claude Code、Codex、Cursor 等工具。它把唐风纹样、国风主题、中文字体策略、网页模板和 HTML PPT runtime 打包在一起，帮助 Agent 生成静态国风网页和横向翻页 HTML PPT。
 
-项目仓库：<https://github.com/itbxm/itbxm-chinese-guofeng-skill>
+![功能演示](https://cdn.itbxm.com/img/guofeng-skill-intro.gif)
 
 适合场景：
 
@@ -18,6 +18,8 @@
 - 新中式品牌页、文旅活动页、发布会 HTML PPT
 
 它专注静态交付，不提供后台系统、登录、上传、支付、实时地图、在线预订或图片生成服务。
+
+![24-patterns](https://cdn.itbxm.com/img/24-patterns.jpg)
 
 ## 30 秒开始
 

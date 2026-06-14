@@ -8,7 +8,7 @@
 
 This is a local Agent Skill for Chinese guofeng visual work in Claude Code, Codex, Cursor, and similar tools. It packages Tang-style pattern assets, seven guofeng themes, Chinese typography guidance, website templates, and an HTML PPT runtime so an agent can generate static guofeng websites and horizontal HTML slide decks.
 
-Repository: <https://github.com/itbxm/itbxm-chinese-guofeng-skill>
+![Hangzhou-Travel](https://cdn.itbxm.com/img/guofeng-skill-intro.gif)
 
 Good use cases:
 
@@ -18,6 +18,8 @@ Good use cases:
 - New Chinese-style brand pages, culture-tourism events, and HTML launch decks
 
 It is static by design. It does not provide backend systems, login, upload, payment, live maps, reservations, or image generation services.
+
+![24-patterns](https://cdn.itbxm.com/img/24-patterns.jpg)
 
 ## 30-Second Start
 
