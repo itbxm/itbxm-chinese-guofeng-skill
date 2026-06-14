@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>国风演示标题</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.itbxm.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;600&family=Noto+Serif+SC:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdn.itbxm.com/fonts/KingHwaOldSong-MN/result.css">
+  <link rel="stylesheet" href="https://cdn.itbxm.com/fonts/ZhaohuaMinA/result.css">
+  <style>
+
+    :root {
+      --gf-ink: #161412;
+      --gf-paper: #f3efe6;
+      --gf-paper-tint: #e7dfd0;
+      --gf-muted: #6f675d;
+      --gf-line: #c9bda9;
+      --gf-accent: #8c1d18;
+      --gf-accent-2: #2f5d50;
+      --gf-pattern-opacity: 0.08;
+      --gf-pattern-blend: multiply;
+      --font-body: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+      --font-title-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+      --font-title-sans: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+      --font-poem: "KingHwaOldSong-MN", "京華老宋体-MN折中印刷字形", "Noto Serif SC", "Source Han Serif SC", "Kaiti SC", "STKaiti", "KaiTi", serif;
+      --font-meta: "Noto Sans Mono", "SFMono-Regular", Consolas, ui-monospace, monospace;
+      --font-display-heavy: "ZhaohuaMinA", "朝华标题A", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+      --font-display-light: "KingHwaOldSong-MN", "京華老宋体-MN折中印刷字形", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+      --font-art: var(--font-display-heavy);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--gf-paper);
+      color: var(--gf-ink);
+      font-family: var(--font-body);
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    .deck {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+    }
+
+    .slide {
+      position: relative;
+      flex: 0 0 100vw;
+      width: 100vw;
+      height: 100vh;
+      padding: 7vh 7vw;
+      scroll-snap-align: start;
+      overflow: hidden;
+      background: linear-gradient(90deg, var(--gf-paper), color-mix(in srgb, var(--gf-paper-tint) 34%, var(--gf-paper) 66%));
+    }
+
+    .slide.dark {
+      background: var(--gf-ink);
+      color: var(--gf-paper);
+      --gf-muted: #d6c7aa;
+      --gf-line: rgba(244, 234, 216, 0.28);
+    }
+
+    .slide.decorated {
+      background: var(--gf-paper);
+    }
+
+    .pattern-bg,
+    .cover-accent,
+    .side-border,
+    .divider {
+      pointer-events: none;
+    }
+
+    .pattern-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      background-image: url("../patterns/tang/itbxm-cngf-tang-006/tile.webp");
+      background-size: 246px 164px;
+      background-repeat: repeat;
+      background-blend-mode: var(--gf-pattern-blend);
+      opacity: 0.055;
+      mix-blend-mode: var(--gf-pattern-blend);
+    }
+
+    .cover-accent {
+      position: absolute;
+      right: -8vw;
+      bottom: -18vh;
+      z-index: 0;
+      width: 56vw;
+      height: 70vh;
+      background-image: url("../patterns/tang/itbxm-cngf-tang-006/cover-accent.webp");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right bottom;
+      opacity: 0.13;
+      mix-blend-mode: var(--gf-pattern-blend);
+    }
+
+    .side-border {
+      position: absolute;
+      inset: 0 auto 0 0;
+      z-index: 1;
+      width: 40px;
+      background-image: url("../patterns/tang/itbxm-cngf-tang-006/strip-vertical.webp");
+      background-repeat: repeat-y;
+      background-size: 40px auto;
+      opacity: 0.46;
+    }
+
+    .divider {
+      height: 44px;
+      margin: 3vh 0 0;
+      background-image: url("../patterns/tang/itbxm-cngf-tang-006/strip-horizontal.webp");
+      background-repeat: repeat-x;
+      background-size: auto 44px;
+      opacity: 0.72;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      align-content: center;
+      min-height: 80vh;
+    }
+
+    .chrome,
+    .foot {
+      position: absolute;
+      z-index: 3;
+      left: 7vw;
+      right: 7vw;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      color: var(--gf-muted);
+      font-family: var(--font-meta);
+      font-size: 12px;
+      letter-spacing: 0;
+    }
+
+    .chrome {
+      top: 4vh;
+    }
+
+    .foot {
+      bottom: 4vh;
+    }
+
+    .kicker {
+      color: var(--gf-accent);
+      font-family: var(--font-meta);
+      font-size: 13px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .title {
+      max-width: 72vw;
+      margin: 0;
+      font-family: var(--font-display-heavy);
+      font-size: clamp(64px, 8vw, 132px);
+      font-weight: 600;
+      line-height: 1.16;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 48vw;
+      margin: 3vh 0 0;
+      color: var(--gf-muted);
+      font-size: clamp(18px, 2vw, 32px);
+      line-height: 1.55;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 6vw;
+      align-items: start;
+    }
+
+    .section-title {
+      margin: 0;
+      font-family: var(--font-display-light);
+      font-size: clamp(40px, 5vw, 82px);
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    .section-title.readable-title,
+    .section-title.english-title {
+      font-family: var(--font-title-serif);
+    }
+
+    .lead {
+      margin: 3vh 0 0;
+      color: var(--gf-muted);
+      font-size: clamp(18px, 1.7vw, 26px);
+      line-height: 1.7;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      min-height: 34vh;
+      padding: 28px;
+      border: 1px solid var(--gf-line);
+      background: color-mix(in srgb, var(--gf-paper) 86%, transparent);
+    }
+
+    .card b {
+      display: block;
+      margin-bottom: 2vh;
+      color: var(--gf-accent);
+      font-family: var(--font-display-light);
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--gf-muted);
+      font-size: 18px;
+      line-height: 1.65;
+    }
+
+    .guofeng-kicker {
+      color: var(--gf-accent);
+      font-family: var(--font-meta);
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    .guofeng-seal {
+      display: inline-grid;
+      width: 56px;
+      height: 56px;
+      place-items: center;
+      border: 1px solid var(--gf-accent);
+      color: var(--gf-accent);
+      font-family: var(--font-art);
+      font-size: 20px;
+    }
+
+    .guofeng-quote,
+    .guofeng-paper-card,
+    .guofeng-knowledge-card,
+    .guofeng-museum-label,
+    .guofeng-itinerary-card,
+    .guofeng-place-card,
+    .guofeng-dish-card {
+      border: 1px solid var(--gf-line);
+      background: color-mix(in srgb, var(--gf-paper) 90%, transparent);
+      padding: clamp(22px, 3vw, 36px);
+    }
+
+    .dark .guofeng-quote,
+    .dark .guofeng-paper-card,
+    .dark .guofeng-knowledge-card,
+    .dark .guofeng-museum-label,
+    .dark .guofeng-itinerary-card,
+    .dark .guofeng-place-card,
+    .dark .guofeng-dish-card {
+      background: color-mix(in srgb, var(--gf-ink) 86%, var(--gf-paper) 14%);
+    }
+
+    .guofeng-quote-text {
+      display: grid;
+      justify-items: center;
+      gap: 0.18em;
+      margin: 0;
+      font-family: var(--font-poem);
+      font-size: clamp(28px, 3.9vw, 56px);
+      line-height: 1.46;
+      text-align: center;
+    }
+
+    .guofeng-poem-line {
+      display: flex;
+      max-width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0 0.42em;
+      text-wrap: balance;
+    }
+
+    .guofeng-poem-half {
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .guofeng-annotation,
+    .guofeng-caption {
+      color: var(--gf-muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .guofeng-scroll-divider {
+      height: 38px;
+      background-image: url("../patterns/tang/itbxm-cngf-tang-006/strip-horizontal.webp");
+      background-repeat: repeat-x;
+      background-size: auto 38px;
+      opacity: 0.68;
+    }
+
+    .guofeng-side-ornament {
+      width: 40px;
+      min-height: 260px;
+      background-image: url("../patterns/tang/itbxm-cngf-tang-006/strip-vertical.webp");
+      background-repeat: repeat-y;
+      background-size: 40px auto;
+      opacity: 0.56;
+    }
+
+    .guofeng-card-grid,
+    .guofeng-timeline {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .guofeng-figure {
+      margin: 0;
+    }
+
+    .guofeng-figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--gf-line);
+    }
+
+    .deck-image-frame {
+      position: relative;
+      margin: 0;
+      overflow: hidden;
+      border: 1px solid var(--gf-line);
+      background:
+        linear-gradient(135deg, color-mix(in srgb, var(--gf-paper) 88%, var(--gf-accent-2) 12%), var(--gf-paper)),
+        color-mix(in srgb, var(--gf-paper) 92%, var(--gf-ink) 8%);
+    }
+
+    .deck-image-wide {
+      aspect-ratio: 16 / 9;
+    }
+
+    .deck-image-square {
+      aspect-ratio: 1 / 1;
+    }
+
+    .deck-image-frame img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .deck-caption-band {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 10px 14px;
+      background: color-mix(in srgb, var(--gf-ink) 72%, transparent);
+      color: var(--gf-paper);
+      font-family: var(--font-meta);
+      font-size: 11px;
+      line-height: 1.55;
+    }
+
+    .deck-quote-slide .content {
+      align-content: center;
+      max-width: 76vw;
+    }
+
+    .deck-quote-text {
+      display: grid;
+      justify-items: center;
+      gap: 0.14em;
+      margin: 0;
+      font-family: var(--font-poem);
+      font-size: clamp(38px, 4.8vw, 76px);
+      line-height: 1.34;
+      text-align: center;
+    }
+
+    .deck-quote-source {
+      margin-top: 4vh;
+      color: var(--gf-muted);
+      font-family: var(--font-meta);
+      font-size: 13px;
+    }
+
+    .deck-timeline-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+      align-items: stretch;
+      margin-top: 5vh;
+    }
+
+    .deck-timeline-item {
+      min-height: 22vh;
+      padding: 22px;
+      border-top: 2px solid var(--gf-accent);
+      background: color-mix(in srgb, var(--gf-paper) 88%, transparent);
+    }
+
+    .deck-timeline-item time {
+      display: block;
+      margin-bottom: 14px;
+      color: var(--gf-accent);
+      font-family: var(--font-meta);
+      font-size: 12px;
+    }
+
+    .deck-artifact-panel {
+      display: grid;
+      grid-template-columns: minmax(260px, 0.92fr) minmax(0, 1.08fr);
+      gap: 4vw;
+      align-items: center;
+      min-height: 62vh;
+    }
+
+    .deck-artifact-panel .deck-image-frame {
+      min-height: 54vh;
+    }
+
+    .deck-chapter-seal {
+      display: inline-grid;
+      width: 72px;
+      height: 72px;
+      place-items: center;
+      margin-bottom: 4vh;
+      border: 1px solid currentColor;
+      color: var(--gf-accent);
+      font-family: var(--font-art);
+      font-size: 24px;
+      line-height: 1;
+    }
+
+    .dark .deck-chapter-seal {
+      color: var(--gf-paper);
+    }
+
+    .deck-safe-footer {
+      min-height: 18px;
+      align-items: center;
+    }
+
+    .guofeng-foot {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      color: var(--gf-muted);
+      font-family: var(--font-meta);
+      font-size: 12px;
+    }
+
+    .guofeng-vertical-inscription {
+      writing-mode: vertical-rl;
+      color: var(--gf-accent);
+      font-family: var(--font-art);
+      line-height: 1.8;
+    }
+
+    .guofeng-stat strong {
+      display: block;
+      color: var(--gf-accent);
+      font-family: var(--font-title-serif);
+      font-size: clamp(60px, 10vw, 150px);
+      line-height: 0.95;
+    }
+
+    .guofeng-stat span,
+    .guofeng-era-tag,
+    .guofeng-info-pill {
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      min-height: 28px;
+      padding: 0 10px;
+      border: 1px solid var(--gf-line);
+      color: var(--gf-accent);
+      font-family: var(--font-meta);
+      font-size: 12px;
+    }
+
+    .guofeng-museum-label h2,
+    .guofeng-knowledge-card h3,
+    .guofeng-place-card h3,
+    .guofeng-dish-card h3,
+    .guofeng-itinerary-card h3 {
+      margin: 16px 0 10px;
+      font-family: var(--font-display-light);
+      line-height: 1.2;
+    }
+
+    .guofeng-cta {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 18px;
+      border: 1px solid var(--gf-accent);
+      background: var(--gf-accent);
+      color: var(--gf-paper);
+      font-weight: 600;
+    }
+
+    .guofeng-scroll-text {
+      max-width: 760px;
+      line-height: 1.8;
+    }
+
+    .deck-controls,
+    .deck-progress,
+    .deck-overview {
+      display: none;
+    }
+
+    body.guofeng-deck-ready .deck-controls {
+      position: fixed;
+      right: 28px;
+      bottom: 28px;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--gf-ink);
+      font-family: var(--font-meta);
+    }
+
+    body.guofeng-deck-ready .deck-button {
+      display: inline-grid;
+      width: 38px;
+      height: 38px;
+      place-items: center;
+      border: 1px solid color-mix(in srgb, var(--gf-ink) 28%, transparent);
+      background: color-mix(in srgb, var(--gf-paper) 82%, transparent);
+      color: inherit;
+      cursor: pointer;
+      font: inherit;
+      transition: border-color 160ms ease, background 160ms ease, opacity 160ms ease;
+    }
+
+    body.guofeng-deck-ready .deck-button:hover {
+      border-color: var(--gf-accent);
+      background: var(--gf-paper);
+    }
+
+    body.guofeng-deck-ready .deck-button:disabled {
+      cursor: default;
+      opacity: 0.36;
+    }
+
+    body.guofeng-deck-ready .deck-progress {
+      position: fixed;
+      left: 7vw;
+      right: 7vw;
+      bottom: 2vh;
+      z-index: 19;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 16px;
+      color: var(--gf-muted);
+      font-family: var(--font-meta);
+      font-size: 12px;
+    }
+
+    .deck-progress-track {
+      height: 1px;
+      background: color-mix(in srgb, var(--gf-ink) 18%, transparent);
+    }
+
+    .deck-progress-fill {
+      display: block;
+      width: 0;
+      height: 100%;
+      background: var(--gf-accent);
+      transition: width 360ms ease;
+    }
+
+    body.guofeng-deck-ready .deck-overview[hidden] {
+      display: none;
+    }
+
+    body.guofeng-deck-ready .deck-overview {
+      position: fixed;
+      inset: 0;
+      z-index: 40;
+      display: block;
+      overflow: auto;
+      padding: 6vh 6vw;
+      background: color-mix(in srgb, var(--gf-paper) 94%, transparent);
+      backdrop-filter: blur(12px);
+    }
+
+    .deck-overview-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 28px;
+      font-family: var(--font-meta);
+      color: var(--gf-muted);
+    }
+
+    .deck-overview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .deck-overview-card {
+      min-height: 148px;
+      padding: 18px;
+      border: 1px solid var(--gf-line);
+      background: var(--gf-paper);
+      color: var(--gf-ink);
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .deck-overview-card span,
+    .deck-overview-card em {
+      display: block;
+      color: var(--gf-muted);
+      font-family: var(--font-meta);
+      font-size: 12px;
+      font-style: normal;
+    }
+
+    .deck-overview-card strong {
+      display: block;
+      margin: 18px 0 12px;
+      font-family: var(--font-display-light);
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    .deck-overview-card.is-current {
+      border-color: var(--gf-accent);
+      box-shadow: inset 0 0 0 1px var(--gf-accent);
+    }
+
+    body.guofeng-motion-ready [data-reveal] {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 720ms ease, transform 720ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    body.guofeng-motion-ready .slide.is-active [data-reveal] {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    body.guofeng-motion-ready .slide.is-active [data-reveal="2"] {
+      transition-delay: 90ms;
+    }
+
+    body.guofeng-motion-ready .slide.is-active [data-reveal="3"] {
+      transition-delay: 180ms;
+    }
+
+    body.guofeng-motion-ready .slide.is-active [data-reveal="4"] {
+      transition-delay: 270ms;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .deck,
+      .deck-progress-fill,
+      body.guofeng-motion-ready [data-reveal] {
+        scroll-behavior: auto;
+        transition: none;
+      }
+    }
+
+    @media (max-width: 760px) {
+      body {
+        overflow: auto;
+      }
+
+      .deck {
+        display: block;
+        height: auto;
+        overflow: visible;
+      }
+
+      .slide {
+        min-height: 100vh;
+        height: auto;
+        padding: 84px 28px;
+      }
+
+      .grid-2,
+      .card-grid,
+      .guofeng-card-grid,
+      .guofeng-timeline,
+      .deck-timeline-strip,
+      .deck-artifact-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .title,
+      .subtitle {
+        max-width: none;
+      }
+
+      .chrome,
+      .foot {
+        left: 28px;
+        right: 28px;
+      }
+
+      .guofeng-side-ornament {
+        width: 100%;
+        min-height: 34px;
+        background-image: url("../patterns/tang/itbxm-cngf-tang-006/strip-horizontal.webp");
+        background-repeat: repeat-x;
+        background-size: auto 34px;
+      }
+
+      .guofeng-poem-line {
+        gap: 0;
+      }
+
+      .guofeng-poem-half {
+        display: block;
+        width: 100%;
+      }
+
+      body.guofeng-deck-ready .deck-controls,
+      body.guofeng-deck-ready .deck-progress {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="deck" data-guofeng-deck aria-label="国风演示">
+    <section class="slide decorated" data-layout="cover">
+      <div class="pattern-bg"></div>
+      <div class="cover-accent"></div>
+      <div class="side-border"></div>
+      <div class="chrome" data-reveal>
+        <div>Guofeng Deck</div>
+        <div>01 / 03</div>
+      </div>
+      <div class="content">
+        <div class="kicker" data-reveal>ink-wash · 水墨宣纸</div>
+        <h1 class="title" data-reveal="2">山水之间</h1>
+        <p class="subtitle" data-reveal="3">以 Noto 字体保持可读性，以唐风纹样建立东方秩序感。</p>
+        <div class="divider" data-reveal="4"></div>
+      </div>
+      <div class="foot deck-safe-footer" data-reveal="4">
+        <div>Replace title, theme variables, and pattern asset paths.</div>
+        <div>ITBXM</div>
+      </div>
+    </section>
+
+    <section class="slide" data-layout="card-grid">
+      <div class="chrome" data-reveal>
+        <div>Theme · Typography · Pattern</div>
+        <div>02 / 03</div>
+      </div>
+      <div class="content grid-2">
+        <div>
+          <div class="kicker" data-reveal>Theme First</div>
+          <h2 class="section-title" data-reveal="2">先定气质，再选纹样。</h2>
+          <p class="lead" data-reveal="3">完整页面不要从单个花纹开始。先选主题变量，再按颜色族、密度和用途匹配图案，画面会更稳定。</p>
+        </div>
+        <div class="card-grid" data-reveal="3">
+          <article class="card">
+            <b>色</b>
+            <p>使用 `--gf-*` 主题变量，不临时拼色。</p>
+          </article>
+          <article class="card">
+            <b>字</b>
+            <p>正文使用 Noto Sans，古典标题使用 Noto Serif，并按繁简选择 SC 或 TC。</p>
+          </article>
+          <article class="card">
+            <b>纹</b>
+            <p>正文页优先纯纸色、轻边线和留白，不叠大面积角落纹样。</p>
+          </article>
+        </div>
+      </div>
+      <div class="foot deck-safe-footer" data-reveal="4">
+        <div>Use this slide as a content-section seed.</div>
+        <div>02</div>
+      </div>
+    </section>
+
+    <section class="slide dark decorated" data-layout="closing">
+      <div class="pattern-bg"></div>
+      <div class="chrome" data-reveal>
+        <div>Closing</div>
+        <div>03 / 03</div>
+      </div>
+      <div class="content">
+        <div class="kicker" data-reveal>Takeaway</div>
+        <h2 class="title" data-reveal="2">纹样是气息，不是噪音。</h2>
+        <p class="subtitle" data-reveal="3">保留留白，让装饰服务内容，而不是吞没内容。</p>
+      </div>
+      <div class="foot deck-safe-footer" data-reveal="4">
+        <div>Use strong ornaments only for deck cover, chapter, or closing slides.</div>
+        <div>03</div>
+      </div>
+    </section>
+  </main>
+  <div class="deck-progress" aria-hidden="true">
+    <div class="deck-progress-track"><span class="deck-progress-fill" data-deck-progress-fill></span></div>
+    <div data-deck-progress-text>01 / 03</div>
+  </div>
+  <nav class="deck-controls" aria-label="演示导航">
+    <button class="deck-button" type="button" data-deck-prev aria-label="上一页">←</button>
+    <button class="deck-button" type="button" data-deck-overview aria-label="打开索引">□</button>
+    <button class="deck-button" type="button" data-deck-next aria-label="下一页">→</button>
+  </nav>
+  <section class="deck-overview" data-deck-overview-panel hidden aria-label="幻灯片索引">
+    <div class="deck-overview-head">
+      <div>ESC Index · 点击卡片跳转</div>
+      <button class="deck-button" type="button" data-deck-overview-close aria-label="关闭索引">×</button>
+    </div>
+    <div class="deck-overview-grid" data-deck-overview-grid></div>
+  </section>
+  <script src="../runtime/guofeng-deck.js"></script>
+</body>
+</html>

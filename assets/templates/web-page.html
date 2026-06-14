@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>国风网站标题</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.itbxm.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;600&family=Noto+Serif+SC:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdn.itbxm.com/fonts/KingHwaOldSong-MN/result.css">
+  <link rel="stylesheet" href="https://cdn.itbxm.com/fonts/ZhaohuaMinA/result.css">
+  <style>
+
+    :root {
+      --gf-ink: #10243a;
+      --gf-paper: #f4f7f6;
+      --gf-paper-tint: #dce8ea;
+      --gf-muted: #587080;
+      --gf-line: #aec4cc;
+      --gf-accent: #1f5d8c;
+      --gf-accent-2: #9a6a2f;
+      --gf-pattern-opacity: 0.09;
+      --gf-pattern-blend: multiply;
+      --gf-motion-fast: 160ms;
+      --gf-motion-base: 240ms;
+      --gf-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+      --gf-shadow-soft: 0 16px 38px rgba(16, 36, 58, 0.08);
+      --gf-shadow-lift: 0 22px 56px rgba(16, 36, 58, 0.13);
+      --font-body: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+      --font-title-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+      --font-title-sans: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+      --font-poem: "KingHwaOldSong-MN", "京華老宋体-MN折中印刷字形", "Noto Serif SC", "Source Han Serif SC", "Kaiti SC", "STKaiti", "KaiTi", serif;
+      --font-meta: "Noto Sans Mono", "SFMono-Regular", Consolas, ui-monospace, monospace;
+      --font-display-heavy: "ZhaohuaMinA", "朝华标题A", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+      --font-display-light: "KingHwaOldSong-MN", "京華老宋体-MN折中印刷字形", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+      --font-art: var(--font-display-heavy);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--gf-paper);
+      color: var(--gf-ink);
+      font-family: var(--font-body);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        linear-gradient(color-mix(in srgb, var(--gf-paper) 92%, transparent), color-mix(in srgb, var(--gf-paper) 92%, transparent)),
+        url("../patterns/tang/itbxm-cngf-tang-008/tile.webp");
+      background-size: auto, 308px 314px;
+      background-blend-mode: normal, var(--gf-pattern-blend);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .gf-focus-ring:focus-visible {
+      outline: 2px solid color-mix(in srgb, var(--gf-accent) 72%, white 28%);
+      outline-offset: 3px;
+    }
+
+    .gf-hover-lift,
+    .gf-card-hover,
+    .gf-soft-shadow-hover {
+      transition:
+        transform var(--gf-motion-base) var(--gf-ease-out),
+        border-color var(--gf-motion-fast) ease,
+        background var(--gf-motion-fast) ease,
+        box-shadow var(--gf-motion-base) var(--gf-ease-out),
+        filter var(--gf-motion-base) var(--gf-ease-out);
+    }
+
+    .gf-hover-lift:hover,
+    .gf-hover-lift:focus-visible {
+      transform: translateY(-2px);
+      box-shadow: var(--gf-shadow-lift);
+    }
+
+    .gf-card-hover:hover,
+    .gf-card-hover:focus-within {
+      transform: translateY(-2px);
+      border-color: color-mix(in srgb, var(--gf-accent) 48%, var(--gf-line) 52%);
+      box-shadow: var(--gf-shadow-soft);
+      background: color-mix(in srgb, var(--gf-paper) 92%, white 8%);
+    }
+
+    .gf-soft-shadow-hover:hover,
+    .gf-soft-shadow-hover:focus-within {
+      box-shadow: var(--gf-shadow-soft);
+    }
+
+    .gf-image-zoom {
+      display: block;
+      overflow: hidden;
+      border: 1px solid var(--gf-line);
+      background: color-mix(in srgb, var(--gf-paper) 88%, white 12%);
+    }
+
+    .gf-image-zoom img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition:
+        transform 520ms var(--gf-ease-out),
+        filter var(--gf-motion-base) var(--gf-ease-out);
+    }
+
+    .gf-image-zoom:hover img,
+    .gf-image-zoom:focus-within img {
+      transform: scale(1.025);
+      filter: saturate(1.03);
+    }
+
+    @keyframes guofeng-fade-up {
+      from {
+        opacity: 0;
+        transform: translateY(14px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .site {
+      min-height: 100vh;
+    }
+
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 22px clamp(24px, 6vw, 92px);
+      border-bottom: 1px solid color-mix(in srgb, var(--gf-line) 70%, transparent);
+      background: color-mix(in srgb, var(--gf-paper) 88%, transparent);
+      backdrop-filter: blur(18px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-family: var(--font-title-serif);
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border: 1px solid var(--gf-accent);
+      color: var(--gf-accent);
+      font-family: var(--font-art);
+      font-size: 18px;
+      transition: background var(--gf-motion-fast) ease, color var(--gf-motion-fast) ease, border-color var(--gf-motion-fast) ease;
+    }
+
+    .brand:hover .brand-mark {
+      background: var(--gf-accent);
+      color: var(--gf-paper);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 22px;
+      color: var(--gf-muted);
+      font-size: 14px;
+    }
+
+    .nav-links a {
+      transition: color var(--gf-motion-fast) ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--gf-accent);
+    }
+
+    .hero {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(300px, 0.68fr);
+      gap: clamp(36px, 7vw, 112px);
+      align-items: center;
+      min-height: 100vh;
+      padding: 118px clamp(24px, 6vw, 92px) 72px;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 88px auto 0 0;
+      width: 44px;
+      background-image: url("../patterns/tang/itbxm-cngf-tang-008/strip-vertical.webp");
+      background-repeat: repeat-y;
+      background-size: 44px auto;
+      opacity: 0.5;
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 1;
+      max-width: 760px;
+      animation: guofeng-fade-up 720ms ease both;
+    }
+
+    .kicker {
+      color: var(--gf-accent);
+      font-family: var(--font-meta);
+      font-size: 13px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 20px 0 0;
+      font-family: var(--font-title-serif);
+      font-size: clamp(56px, 8vw, 128px);
+      font-weight: 600;
+      line-height: 1.16;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 620px;
+      margin: 30px 0 0;
+      color: var(--gf-muted);
+      font-size: clamp(18px, 1.8vw, 25px);
+      line-height: 1.75;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 40px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 46px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 20px;
+      border: 1px solid var(--gf-accent);
+      background: var(--gf-accent);
+      color: var(--gf-paper);
+      font-weight: 600;
+      transition: background var(--gf-motion-fast) ease, color var(--gf-motion-fast) ease, transform var(--gf-motion-fast) ease, border-color var(--gf-motion-fast) ease, box-shadow var(--gf-motion-base) var(--gf-ease-out);
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--gf-accent);
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      transform: translateY(-1px);
+      background: color-mix(in srgb, var(--gf-accent) 88%, var(--gf-ink) 12%);
+      border-color: color-mix(in srgb, var(--gf-accent) 88%, var(--gf-ink) 12%);
+    }
+
+    .button.secondary:hover,
+    .button.secondary:focus-visible {
+      background: color-mix(in srgb, var(--gf-accent) 9%, transparent);
+      color: var(--gf-accent);
+    }
+
+    .ornament-panel {
+      position: relative;
+      z-index: 1;
+      min-height: min(62vh, 620px);
+      border: 1px solid var(--gf-line);
+      background:
+        linear-gradient(color-mix(in srgb, var(--gf-paper-tint) 82%, transparent), color-mix(in srgb, var(--gf-paper-tint) 82%, transparent)),
+        url("../patterns/tang/itbxm-cngf-tang-008/cover-accent.webp");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: normal, var(--gf-pattern-blend);
+      animation: guofeng-fade-up 840ms 120ms ease both;
+      transition: border-color var(--gf-motion-base) ease, background-size 520ms var(--gf-ease-out), filter var(--gf-motion-base) ease, box-shadow var(--gf-motion-base) var(--gf-ease-out);
+    }
+
+    .ornament-panel:hover {
+      border-color: color-mix(in srgb, var(--gf-accent) 62%, var(--gf-line) 38%);
+      background-size: 102%;
+      box-shadow: var(--gf-shadow-soft);
+      filter: saturate(1.03);
+    }
+
+    .ornament-panel::after {
+      content: "青瓷";
+      position: absolute;
+      right: 28px;
+      bottom: 24px;
+      display: grid;
+      width: 72px;
+      height: 72px;
+      place-items: center;
+      border: 1px solid var(--gf-accent);
+      color: var(--gf-accent);
+      font-family: var(--font-art);
+      font-size: 22px;
+    }
+
+    .section {
+      padding: 84px clamp(24px, 6vw, 92px);
+      border-top: 1px solid var(--gf-line);
+      background: color-mix(in srgb, var(--gf-paper) 86%, transparent);
+    }
+
+    .guofeng-section--side-ornament {
+      display: grid;
+      grid-template-columns: 38px minmax(0, 1fr);
+      gap: clamp(24px, 4vw, 52px);
+      align-items: stretch;
+    }
+
+    .guofeng-section--side-ornament > .section-content {
+      min-width: 0;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: 42px;
+      align-items: end;
+      margin-bottom: 42px;
+      animation: guofeng-fade-up 680ms ease both;
+    }
+
+    h2 {
+      margin: 0;
+      font-family: var(--font-title-serif);
+      font-size: clamp(34px, 4.8vw, 72px);
+      line-height: 1.16;
+      letter-spacing: 0;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--gf-muted);
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      min-height: 220px;
+      padding: 28px;
+      border: 1px solid var(--gf-line);
+      background: var(--gf-paper);
+      transition: border-color var(--gf-motion-fast) ease, background var(--gf-motion-fast) ease, transform var(--gf-motion-fast) ease, box-shadow var(--gf-motion-base) var(--gf-ease-out);
+    }
+
+    .card:hover,
+    .card:focus-within {
+      transform: translateY(-2px);
+      border-color: color-mix(in srgb, var(--gf-accent) 48%, var(--gf-line) 52%);
+      box-shadow: var(--gf-shadow-soft);
+      background: color-mix(in srgb, var(--gf-paper) 92%, white 8%);
+    }
+
+    .card span {
+      color: var(--gf-accent);
+      font-family: var(--font-meta);
+      font-size: 13px;
+    }
+
+    .card h3 {
+      margin: 28px 0 12px;
+      font-family: var(--font-title-serif);
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--gf-muted);
+      line-height: 1.65;
+    }
+
+    .guofeng-kicker {
+      color: var(--gf-accent);
+      font-family: var(--font-meta);
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    .guofeng-seal {
+      display: inline-grid;
+      width: 56px;
+      height: 56px;
+      place-items: center;
+      border: 1px solid var(--gf-accent);
+      color: var(--gf-accent);
+      font-family: var(--font-art);
+      font-size: 20px;
+    }
+
+    .guofeng-quote,
+    .guofeng-paper-card,
+    .guofeng-knowledge-card,
+    .guofeng-museum-label,
+    .guofeng-itinerary-card,
+    .guofeng-place-card,
+    .guofeng-dish-card {
+      border: 1px solid var(--gf-line);
+      background: color-mix(in srgb, var(--gf-paper) 92%, transparent);
+      padding: clamp(22px, 3vw, 36px);
+    }
+
+    .guofeng-quote-text {
+      display: grid;
+      justify-items: center;
+      gap: 0.2em;
+      margin: 0;
+      font-family: var(--font-poem);
+      font-size: clamp(24px, 3.2vw, 42px);
+      line-height: 1.55;
+      text-align: center;
+    }
+
+    .guofeng-poem-line {
+      display: flex;
+      max-width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0 0.42em;
+      text-wrap: balance;
+    }
+
+    .guofeng-poem-half {
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .guofeng-annotation,
+    .guofeng-caption {
+      color: var(--gf-muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .guofeng-scroll-divider {
+      height: 36px;
+      background-image: url("../patterns/tang/itbxm-cngf-tang-008/strip-horizontal.webp");
+      background-repeat: repeat-x;
+      background-size: auto 36px;
+      opacity: 0.68;
+    }
+
+    .guofeng-side-ornament {
+      width: 38px;
+      min-height: 220px;
+      background-image: url("../patterns/tang/itbxm-cngf-tang-008/strip-vertical.webp");
+      background-repeat: repeat-y;
+      background-size: 38px auto;
+      opacity: 0.52;
+    }
+
+    .guofeng-card-grid,
+    .guofeng-timeline {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .guofeng-figure {
+      margin: 0;
+    }
+
+    .guofeng-figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .guofeng-foot {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      color: var(--gf-muted);
+      font-family: var(--font-meta);
+      font-size: 12px;
+    }
+
+    .guofeng-vertical-inscription {
+      writing-mode: vertical-rl;
+      color: var(--gf-accent);
+      font-family: var(--font-art);
+      line-height: 1.8;
+    }
+
+    .guofeng-stat strong {
+      display: block;
+      color: var(--gf-accent);
+      font-family: var(--font-title-serif);
+      font-size: clamp(56px, 9vw, 128px);
+      line-height: 0.95;
+    }
+
+    .guofeng-stat span,
+    .guofeng-era-tag,
+    .guofeng-info-pill {
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      min-height: 28px;
+      padding: 0 10px;
+      border: 1px solid var(--gf-line);
+      color: var(--gf-accent);
+      font-family: var(--font-meta);
+      font-size: 12px;
+    }
+
+    .guofeng-museum-label h2,
+    .guofeng-knowledge-card h3,
+    .guofeng-place-card h3,
+    .guofeng-dish-card h3,
+    .guofeng-itinerary-card h3 {
+      margin: 16px 0 10px;
+      font-family: var(--font-title-serif);
+      line-height: 1.2;
+    }
+
+    .guofeng-cta {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 18px;
+      border: 1px solid var(--gf-accent);
+      background: var(--gf-accent);
+      color: var(--gf-paper);
+      font-weight: 600;
+      transition: background var(--gf-motion-fast) ease, transform var(--gf-motion-fast) ease, border-color var(--gf-motion-fast) ease, box-shadow var(--gf-motion-base) var(--gf-ease-out);
+    }
+
+    .guofeng-cta:hover,
+    .guofeng-cta:focus-visible {
+      transform: translateY(-1px);
+      background: color-mix(in srgb, var(--gf-accent) 88%, var(--gf-ink) 12%);
+      border-color: color-mix(in srgb, var(--gf-accent) 88%, var(--gf-ink) 12%);
+    }
+
+    .guofeng-scroll-text {
+      max-width: 760px;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 860px) {
+      .nav {
+        position: static;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero,
+      .section-head,
+      .cards,
+      .guofeng-card-grid,
+      .guofeng-timeline {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: auto;
+        padding-top: 64px;
+      }
+
+      .ornament-panel {
+        min-height: 360px;
+      }
+
+      .guofeng-side-ornament {
+        width: 100%;
+        min-height: 34px;
+        background-image: url("../patterns/tang/itbxm-cngf-tang-008/strip-horizontal.webp");
+        background-repeat: repeat-x;
+        background-size: auto 34px;
+      }
+
+      .guofeng-section--side-ornament {
+        grid-template-columns: 1fr;
+      }
+
+      .guofeng-poem-line {
+        gap: 0;
+      }
+
+      .guofeng-poem-half {
+        display: block;
+        width: 100%;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 1ms !important;
+      }
+
+      .gf-hover-lift:hover,
+      .gf-hover-lift:focus-visible,
+      .gf-card-hover:hover,
+      .gf-card-hover:focus-within,
+      .button:hover,
+      .button:focus-visible,
+      .card:hover,
+      .card:focus-within,
+      .guofeng-cta:hover,
+      .guofeng-cta:focus-visible {
+        transform: none !important;
+      }
+
+      .gf-image-zoom:hover img,
+      .gf-image-zoom:focus-within img,
+      .ornament-panel:hover {
+        transform: none !important;
+        background-size: cover !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="site">
+    <nav class="nav" aria-label="主导航">
+      <a class="brand gf-focus-ring" href="#">
+        <span class="brand-mark">风</span>
+        <span>品牌名</span>
+      </a>
+      <div class="nav-links">
+        <a href="#craft">工艺</a>
+        <a href="#system">系统</a>
+        <a href="#contact">联系</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="kicker">porcelain-blue · 青瓷月白</div>
+        <h1>一页之中，有山河气。</h1>
+        <p class="lead">用稳定的主题色、可读的 Noto 字体与克制的唐风纹样，为网站首页建立中国风的秩序感。</p>
+        <div class="actions">
+          <a class="button gf-hover-lift gf-focus-ring" href="#craft">查看体系</a>
+          <a class="button secondary gf-hover-lift gf-focus-ring" href="#system">选择主题</a>
+        </div>
+      </div>
+      <div class="ornament-panel gf-soft-shadow-hover" aria-hidden="true"></div>
+    </section>
+
+    <section class="section guofeng-section--side-ornament" id="craft">
+      <div class="guofeng-side-ornament" aria-hidden="true"></div>
+      <div class="section-content">
+        <div class="section-head">
+          <h2>不是堆装饰，而是建气质。</h2>
+          <p>完整页面先选主题，再选字体和纹样。正文保持清晰，纹样只在标题、边界、底纹和章节气口出现。</p>
+        </div>
+        <div class="cards">
+          <article class="card gf-card-hover">
+            <span>01 · Theme</span>
+            <h3>主题先行</h3>
+            <p>使用 `--gf-*` 变量控制整体色彩，避免临时拼色。</p>
+          </article>
+          <article class="card gf-card-hover">
+            <span>02 · Type</span>
+            <h3>字体分工</h3>
+            <p>Noto Sans 保证正文可读，Noto Serif 承载古典标题，并按繁简选择 SC 或 TC。</p>
+          </article>
+          <article class="card gf-card-hover">
+            <span>03 · Pattern</span>
+            <h3>纹样克制</h3>
+            <p>图案优先服务分隔、边界与低透明背景，不遮挡正文。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.0",
+  "variables": [
+    "--gf-ink",
+    "--gf-paper",
+    "--gf-paper-tint",
+    "--gf-muted",
+    "--gf-line",
+    "--gf-accent",
+    "--gf-accent-2",
+    "--gf-pattern-opacity",
+    "--gf-pattern-blend"
+  ],
+  "themes": [
+    {
+      "id": "ink-wash",
+      "name_zh": "水墨宣纸",
+      "tone": "calm_editorial",
+      "use_for": [
+        "poetry",
+        "tea",
+        "essay",
+        "museum",
+        "classical_culture"
+      ],
+      "recommended_color_family": [
+        "neutral",
+        "dark",
+        "green"
+      ],
+      "avoid_density": [
+        "dense behind body text"
+      ],
+      "variables": {
+        "--gf-ink": "#161412",
+        "--gf-paper": "#f3efe6",
+        "--gf-paper-tint": "#e7dfd0",
+        "--gf-muted": "#6f675d",
+        "--gf-line": "#c9bda9",
+        "--gf-accent": "#8c1d18",
+        "--gf-accent-2": "#2f5d50",
+        "--gf-pattern-opacity": "0.08",
+        "--gf-pattern-blend": "multiply"
+      },
+      "recommended_patterns": [
+        "itbxm-cngf-tang-006",
+        "itbxm-cngf-tang-013",
+        "itbxm-cngf-tang-016",
+        "itbxm-cngf-tang-019",
+        "itbxm-cngf-tang-024"
+      ]
+    },
+    {
+      "id": "porcelain-blue",
+      "name_zh": "青瓷月白",
+      "tone": "refined_cool",
+      "use_for": [
+        "porcelain",
+        "technology",
+        "research",
+        "archive",
+        "blue_white_editorial"
+      ],
+      "recommended_color_family": [
+        "blue",
+        "cyan",
+        "neutral"
+      ],
+      "avoid_density": [
+        "dense warm patterns"
+      ],
+      "variables": {
+        "--gf-ink": "#10243a",
+        "--gf-paper": "#f4f7f6",
+        "--gf-paper-tint": "#dce8ea",
+        "--gf-muted": "#587080",
+        "--gf-line": "#aec4cc",
+        "--gf-accent": "#1f5d8c",
+        "--gf-accent-2": "#9a6a2f",
+        "--gf-pattern-opacity": "0.09",
+        "--gf-pattern-blend": "multiply"
+      },
+      "recommended_patterns": [
+        "itbxm-cngf-tang-007",
+        "itbxm-cngf-tang-008",
+        "itbxm-cngf-tang-014",
+        "itbxm-cngf-tang-020",
+        "itbxm-cngf-tang-024"
+      ]
+    },
+    {
+      "id": "tang-vermilion-gold",
+      "name_zh": "唐宫朱金",
+      "tone": "ceremonial_festive",
+      "use_for": [
+        "festival",
+        "ceremony",
+        "launch",
+        "cover",
+        "new_year"
+      ],
+      "recommended_color_family": [
+        "red",
+        "orange",
+        "yellow_gold"
+      ],
+      "avoid_density": [
+        "high opacity full-page repeat"
+      ],
+      "variables": {
+        "--gf-ink": "#2a1710",
+        "--gf-paper": "#f7ead2",
+        "--gf-paper-tint": "#ecd1a5",
+        "--gf-muted": "#7a5140",
+        "--gf-line": "#cf9b5f",
+        "--gf-accent": "#b3261e",
+        "--gf-accent-2": "#c8942e",
+        "--gf-pattern-opacity": "0.12",
+        "--gf-pattern-blend": "multiply"
+      },
+      "recommended_patterns": [
+        "itbxm-cngf-tang-004",
+        "itbxm-cngf-tang-009",
+        "itbxm-cngf-tang-015",
+        "itbxm-cngf-tang-021",
+        "itbxm-cngf-tang-023"
+      ]
+    },
+    {
+      "id": "jade-green",
+      "name_zh": "青玉松风",
+      "tone": "natural_calm",
+      "use_for": [
+        "garden",
+        "tea_brand",
+        "wellness",
+        "nature",
+        "spring_summer"
+      ],
+      "recommended_color_family": [
+        "green",
+        "cyan",
+        "neutral"
+      ],
+      "avoid_density": [
+        "dark dense backgrounds behind body text"
+      ],
+      "variables": {
+        "--gf-ink": "#14241d",
+        "--gf-paper": "#f1f3e8",
+        "--gf-paper-tint": "#dce5d4",
+        "--gf-muted": "#566b5c",
+        "--gf-line": "#aabca5",
+        "--gf-accent": "#2f6f53",
+        "--gf-accent-2": "#a66f2b",
+        "--gf-pattern-opacity": "0.10",
+        "--gf-pattern-blend": "multiply"
+      },
+      "recommended_patterns": [
+        "itbxm-cngf-tang-001",
+        "itbxm-cngf-tang-011",
+        "itbxm-cngf-tang-014",
+        "itbxm-cngf-tang-019",
+        "itbxm-cngf-tang-020"
+      ]
+    },
+    {
+      "id": "dunhuang-earth",
+      "name_zh": "敦煌土色",
+      "tone": "heritage_warm",
+      "use_for": [
+        "dunhuang",
+        "mural",
+        "history",
+        "heritage",
+        "travel",
+        "craft"
+      ],
+      "recommended_color_family": [
+        "orange",
+        "yellow_gold",
+        "neutral",
+        "cyan"
+      ],
+      "avoid_density": [
+        "overly saturated red as main background"
+      ],
+      "variables": {
+        "--gf-ink": "#2d2016",
+        "--gf-paper": "#f0dfbf",
+        "--gf-paper-tint": "#dfc28e",
+        "--gf-muted": "#75593b",
+        "--gf-line": "#b88952",
+        "--gf-accent": "#b95a2d",
+        "--gf-accent-2": "#2f6a73",
+        "--gf-pattern-opacity": "0.11",
+        "--gf-pattern-blend": "multiply"
+      },
+      "recommended_patterns": [
+        "itbxm-cngf-tang-005",
+        "itbxm-cngf-tang-010",
+        "itbxm-cngf-tang-015",
+        "itbxm-cngf-tang-022",
+        "itbxm-cngf-tang-023"
+      ]
+    },
+    {
+      "id": "night-lacquer",
+      "name_zh": "玄漆鎏金",
+      "tone": "premium_dramatic",
+      "use_for": [
+        "premium_brand",
+        "black_gold",
+        "evening_event",
+        "dramatic_cover",
+        "chapter_opener"
+      ],
+      "recommended_color_family": [
+        "dark",
+        "purple",
+        "red",
+        "yellow_gold"
+      ],
+      "avoid_density": [
+        "low-contrast dark pattern without screen blend"
+      ],
+      "variables": {
+        "--gf-ink": "#f4ead8",
+        "--gf-paper": "#17110f",
+        "--gf-paper-tint": "#241916",
+        "--gf-muted": "#bca98a",
+        "--gf-line": "#6c5640",
+        "--gf-accent": "#c99a3e",
+        "--gf-accent-2": "#8f1f1b",
+        "--gf-pattern-opacity": "0.16",
+        "--gf-pattern-blend": "screen"
+      },
+      "recommended_patterns": [
+        "itbxm-cngf-tang-003",
+        "itbxm-cngf-tang-012",
+        "itbxm-cngf-tang-016",
+        "itbxm-cngf-tang-017",
+        "itbxm-cngf-tang-023"
+      ]
+    },
+    {
+      "id": "hua-chao-rouge",
+      "name_zh": "花朝胭脂",
+      "tone": "romantic_floral",
+      "use_for": [
+        "flower_festival",
+        "fragrance",
+        "wedding",
+        "poetry_gathering",
+        "spring_market",
+        "feminine_culture",
+        "gift_brand"
+      ],
+      "recommended_color_family": [
+        "rose",
+        "red",
+        "neutral",
+        "yellow_gold"
+      ],
+      "avoid_density": [
+        "full-page rose pattern behind body text",
+        "single-note pink palette without ink or gold contrast"
+      ],
+      "variables": {
+        "--gf-ink": "#2a1720",
+        "--gf-paper": "#fbf0ed",
+        "--gf-paper-tint": "#efd2cc",
+        "--gf-muted": "#7a5860",
+        "--gf-line": "#d6aba8",
+        "--gf-accent": "#b0445f",
+        "--gf-accent-2": "#b78a38",
+        "--gf-pattern-opacity": "0.09",
+        "--gf-pattern-blend": "multiply"
+      },
+      "recommended_patterns": [
+        "itbxm-cngf-tang-002",
+        "itbxm-cngf-tang-018",
+        "itbxm-cngf-tang-009",
+        "itbxm-cngf-tang-024",
+        "itbxm-cngf-tang-015"
+      ]
+    }
+  ]
+}

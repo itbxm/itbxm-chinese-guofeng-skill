@@ -1,0 +1,33 @@
+.DS_Store
+*.DS_Store
+Thumbs.db
+
+# Local editor and OS metadata
+.idea/
+.vscode/
+.obsidian/
+*.swp
+*.swo
+
+# Dependency and build caches
+node_modules/
+.cache/
+.parcel-cache/
+__pycache__/
+*.py[cod]
+dist/
+build/
+
+# Generated previews and temporary output
+tmp/
+temp/
+out/
+outputs/
+generated/
+preview/
+*.log
+
+# Local environment files
+.env
+.env.*
+!.env.example

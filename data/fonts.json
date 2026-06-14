@@ -1,0 +1,246 @@
+{
+  "schema_version": "3.3",
+  "default_policy": {
+    "allowed_font_type": "commercially usable open-source original fonts only",
+    "css_location": "project",
+    "primary_provider": "google-fonts-css-and-itbxm-r2-css",
+    "primary_css_url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;600&family=Noto+Serif+SC:wght@400;600&display=swap",
+    "default_script": "zh-Hans",
+    "script_profiles": {
+      "zh-Hans": {
+        "html_lang": "zh-CN",
+        "primary_css_url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;600&family=Noto+Serif+SC:wght@400;600&display=swap",
+        "body_font_id": "noto-sans-sc",
+        "serif_font_id": "noto-serif-sc",
+        "display_heavy_font_id": "zhaohua-min-a",
+        "display_light_font_id": "kinghwa-old-song-mn",
+        "meta_font_id": "noto-sans-mono"
+      },
+      "zh-Hant": {
+        "html_lang": "zh-TW",
+        "primary_css_url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;600&family=Noto+Serif+TC:wght@400;600&display=swap",
+        "body_font_id": "noto-sans-tc",
+        "serif_font_id": "noto-serif-tc",
+        "display_heavy_font_id": "zhaohua-min-a",
+        "display_light_font_id": "kinghwa-old-song-mn",
+        "meta_font_id": "noto-sans-mono"
+      }
+    },
+    "web_font_delivery": "google-fonts-css-plus-itbxm-r2-result-css",
+    "decorative_font_css_urls": [
+      "https://cdn.itbxm.com/fonts/KingHwaOldSong-MN/result.css",
+      "https://cdn.itbxm.com/fonts/ZhaohuaMinA/result.css"
+    ]
+  },
+  "font_roles": [
+    {
+      "id": "noto-sans-sc",
+      "name": "Noto Sans SC",
+      "font_family": "Noto Sans SC",
+      "script": "zh-Hans",
+      "role": "body",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "open_source": true,
+      "commercial_use_allowed": true,
+      "bundled": false,
+      "css_variable": "--font-body",
+      "google_css_url": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600&display=swap",
+      "fallback_stack": "\"Source Han Sans SC\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+      "weights": [
+        { "weight": 400 },
+        { "weight": 600 }
+      ],
+      "usage": "Readable Simplified Chinese body text, UI labels, captions, website navigation, information-heavy PPT pages.",
+      "restrictions": [
+        "Use Google Fonts CSS API as the primary source when publishing web pages.",
+        "Use the original font family name.",
+        "Only add commercially usable open-source original fonts to this registry."
+      ]
+    },
+    {
+      "id": "noto-serif-sc",
+      "name": "Noto Serif SC",
+      "font_family": "Noto Serif SC",
+      "script": "zh-Hans",
+      "role": "classical_title",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "open_source": true,
+      "commercial_use_allowed": true,
+      "bundled": false,
+      "css_variable": "--font-title-serif",
+      "google_css_url": "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&display=swap",
+      "fallback_stack": "\"Source Han Serif SC\", \"Songti SC\", \"SimSun\", serif",
+      "weights": [
+        { "weight": 400 },
+        { "weight": 600 }
+      ],
+      "usage": "Simplified Chinese classical titles, editorial guofeng headlines, poetry-forward covers, cultural PPT section openers.",
+      "restrictions": [
+        "Use Google Fonts CSS API as the primary source when publishing web pages.",
+        "Use the original font family name.",
+        "Only add commercially usable open-source original fonts to this registry."
+      ]
+    },
+    {
+      "id": "noto-sans-tc",
+      "name": "Noto Sans TC",
+      "font_family": "Noto Sans TC",
+      "script": "zh-Hant",
+      "role": "body",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "open_source": true,
+      "commercial_use_allowed": true,
+      "bundled": false,
+      "css_variable": "--font-body",
+      "google_css_url": "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600&display=swap",
+      "fallback_stack": "\"Source Han Sans TC\", \"Microsoft JhengHei UI\", \"Microsoft JhengHei\", \"PingFang TC\", system-ui, sans-serif",
+      "weights": [
+        { "weight": 400 },
+        { "weight": 600 }
+      ],
+      "usage": "Readable Traditional Chinese body text, UI labels, captions, website navigation, information-heavy PPT pages.",
+      "restrictions": [
+        "Use Google Fonts CSS API as the primary source when publishing web pages.",
+        "Use the original font family name.",
+        "Only add commercially usable open-source original fonts to this registry."
+      ]
+    },
+    {
+      "id": "noto-serif-tc",
+      "name": "Noto Serif TC",
+      "font_family": "Noto Serif TC",
+      "script": "zh-Hant",
+      "role": "classical_title",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "open_source": true,
+      "commercial_use_allowed": true,
+      "bundled": false,
+      "css_variable": "--font-title-serif",
+      "google_css_url": "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600&display=swap",
+      "fallback_stack": "\"Source Han Serif TC\", \"Songti TC\", \"PMingLiU\", \"MingLiU\", serif",
+      "weights": [
+        { "weight": 400 },
+        { "weight": 600 }
+      ],
+      "usage": "Traditional Chinese classical titles, editorial guofeng headlines, poetry-forward covers, cultural PPT section openers.",
+      "restrictions": [
+        "Use Google Fonts CSS API as the primary source when publishing web pages.",
+        "Use the original font family name.",
+        "Only add commercially usable open-source original fonts to this registry."
+      ]
+    },
+    {
+      "id": "noto-sans-mono",
+      "name": "Noto Sans Mono",
+      "font_family": "Noto Sans Mono",
+      "script": "Latn",
+      "role": "metadata",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://openfontlicense.org/open-font-license-official-text/",
+      "open_source": true,
+      "commercial_use_allowed": true,
+      "bundled": false,
+      "css_variable": "--font-meta",
+      "google_css_url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&display=swap",
+      "fallback_stack": "\"SFMono-Regular\", Consolas, ui-monospace, monospace",
+      "weights": [
+        { "weight": 400 },
+        { "weight": 600 }
+      ],
+      "usage": "Latin digits, catalogue IDs, dates, code-like labels, and compact technical metadata.",
+      "restrictions": [
+        "This is not a CJK font.",
+        "Do not use for Chinese body text, table explanations, travel descriptions, menu descriptions, or cultural notes.",
+        "Use Noto Sans SC/TC or system Chinese fonts for Chinese text."
+      ]
+    },
+    {
+      "id": "zhaohua-min-a",
+      "name": "朝华标题明朝体A",
+      "font_family": "ZhaohuaMinA",
+      "local_family_aliases": [
+        "朝华标题A",
+        "朝華標題A",
+        "朝華見出明朝A"
+      ],
+      "script": "zh-Hans",
+      "role": "display_title",
+      "license": "Free commercial use, per author release; see source evidence",
+      "license_url": "https://zhuanlan.zhihu.com/p/2016459140264916053",
+      "license_evidence_url": "https://zhuanlan.zhihu.com/p/2016459140264916053",
+      "author": "特里王",
+      "author_url": "https://www.zhihu.com/people/wang-ting-rui-61",
+      "reference_urls": [
+        "https://zhuanlan.zhihu.com/p/2016459140264916053"
+      ],
+      "open_source": true,
+      "commercial_use_allowed": true,
+      "bundled": false,
+      "redistribution_note": "Not bundled in this repository. Web delivery uses the ITBXM R2 result.css generated with a cn-font-split style pipeline.",
+      "css_variable": "--font-display-heavy",
+      "google_css_url": "",
+      "web_css_url": "https://cdn.itbxm.com/fonts/ZhaohuaMinA/result.css",
+      "fallback_stack": "\"Noto Serif SC\", \"Source Han Serif SC\", \"Songti SC\", \"SimSun\", serif",
+      "web_source": {
+        "url": "https://cdn.itbxm.com/fonts/ZhaohuaMinA/result.css",
+        "format": "result.css",
+        "provider": "ITBXM Cloudflare R2"
+      },
+      "weights": [
+        { "weight": 700 }
+      ],
+      "usage": "Heavy decorative Simplified Chinese display titles, covers, chapter openers, poster headlines, and brand hero text.",
+      "restrictions": [
+        "Use for short decorative text only.",
+        "Do not use for long body text, menus, route descriptions, course paragraphs, or dense captions.",
+        "Load through the registered result.css link; do not hand-write @font-face or WOFF2 URLs.",
+        "Keep Noto/system serif fallback after this family."
+      ]
+    },
+    {
+      "id": "kinghwa-old-song-mn",
+      "name": "京华老宋体MN",
+      "font_family": "KingHwaOldSong-MN",
+      "local_family_aliases": [
+        "京華老宋体-MN折中印刷字形"
+      ],
+      "script": "zh-Hans",
+      "role": "decorative_serif",
+      "license": "Free commercial use, per author release; see source evidence",
+      "license_url": "https://zhuanlan.zhihu.com/p/1915922891633043436",
+      "license_evidence_url": "https://zhuanlan.zhihu.com/p/1915922891633043436",
+      "author": "特里王",
+      "author_url": "https://www.zhihu.com/people/wang-ting-rui-61",
+      "reference_urls": [
+        "https://zhuanlan.zhihu.com/p/1915922891633043436"
+      ],
+      "open_source": true,
+      "commercial_use_allowed": true,
+      "bundled": false,
+      "redistribution_note": "Not bundled in this repository. Web delivery uses the ITBXM R2 result.css generated with a cn-font-split style pipeline.",
+      "css_variable": "--font-display-light",
+      "google_css_url": "",
+      "web_css_url": "https://cdn.itbxm.com/fonts/KingHwaOldSong-MN/result.css",
+      "fallback_stack": "\"Noto Serif SC\", \"Source Han Serif SC\", \"Songti SC\", \"SimSun\", serif",
+      "web_source": {
+        "url": "https://cdn.itbxm.com/fonts/KingHwaOldSong-MN/result.css",
+        "format": "result.css",
+        "provider": "ITBXM Cloudflare R2"
+      },
+      "weights": [
+        { "weight": 400 }
+      ],
+      "usage": "Light decorative Simplified Chinese serif for poems, title slips, exhibit labels, signatures, and short cultural headings.",
+      "restrictions": [
+        "Use for short decorative text only.",
+        "Do not use for long body text, menus, route descriptions, course paragraphs, or dense captions.",
+        "Load through the registered result.css link; do not hand-write @font-face or WOFF2 URLs.",
+        "Keep Noto/system serif fallback after this family."
+      ]
+    }
+  ]
+}

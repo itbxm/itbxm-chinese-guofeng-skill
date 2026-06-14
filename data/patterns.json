@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "itbxm-cngf-tang-001",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 01",
+    "name_en": "ITBXM Tang Guofeng Pattern 01",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "green",
+      "guofeng",
+      "linear_scroll",
+      "medium",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "green",
+    "density": "medium",
+    "motif_type": "linear_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-001/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-001/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-001/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-001/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-001/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-001/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-001/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-001/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-001/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-001/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-001/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-001/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-001/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-001/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-001/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-001/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-001/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-001/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-002",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 02",
+    "name_en": "ITBXM Tang Guofeng Pattern 02",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "floral_scroll",
+      "guofeng",
+      "repeat",
+      "rose",
+      "sparse",
+      "tang"
+    ],
+    "color_family": "rose",
+    "density": "sparse",
+    "motif_type": "floral_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-002/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-002/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-002/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-002/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-002/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-002/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-002/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-002/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-002/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-002/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-002/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-002/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-002/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-002/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-002/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-002/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-002/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-002/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-003",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 03",
+    "name_en": "ITBXM Tang Guofeng Pattern 03",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "dense",
+      "dense_background",
+      "guofeng",
+      "purple",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "purple",
+    "density": "dense",
+    "motif_type": "dense_background",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-003/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-003/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-003/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-003/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-003/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-003/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-003/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-003/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-003/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-003/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-003/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-003/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-003/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-003/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-003/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-003/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-003/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-003/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-004",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 04",
+    "name_en": "ITBXM Tang Guofeng Pattern 04",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "guofeng",
+      "medium",
+      "red",
+      "repeat",
+      "symmetric_floral",
+      "tang"
+    ],
+    "color_family": "red",
+    "density": "medium",
+    "motif_type": "symmetric_floral",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-004/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-004/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-004/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-004/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-004/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-004/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-004/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-004/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-004/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-004/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-004/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-004/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-004/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-004/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-004/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-004/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-004/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-004/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-005",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 05",
+    "name_en": "ITBXM Tang Guofeng Pattern 05",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "dense",
+      "dense_background",
+      "guofeng",
+      "orange",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "orange",
+    "density": "dense",
+    "motif_type": "dense_background",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-005/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-005/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-005/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-005/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-005/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-005/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-005/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-005/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-005/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-005/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-005/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-005/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-005/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-005/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-005/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-005/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-005/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-005/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-006",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 06",
+    "name_en": "ITBXM Tang Guofeng Pattern 06",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "guofeng",
+      "linear_scroll",
+      "neutral",
+      "repeat",
+      "sparse",
+      "tang"
+    ],
+    "color_family": "neutral",
+    "density": "sparse",
+    "motif_type": "linear_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-006/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-006/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-006/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-006/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-006/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-006/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-006/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-006/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-006/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-006/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-006/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-006/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-006/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-006/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-006/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-006/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-006/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-006/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-007",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 07",
+    "name_en": "ITBXM Tang Guofeng Pattern 07",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "cyan",
+      "floral_scroll",
+      "guofeng",
+      "medium",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "cyan",
+    "density": "medium",
+    "motif_type": "floral_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-007/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-007/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-007/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-007/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-007/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-007/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-007/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-007/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-007/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-007/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-007/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-007/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-007/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-007/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-007/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-007/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-007/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-007/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-008",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 08",
+    "name_en": "ITBXM Tang Guofeng Pattern 08",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "blue",
+      "guofeng",
+      "medium",
+      "repeat",
+      "symmetric_floral",
+      "tang"
+    ],
+    "color_family": "blue",
+    "density": "medium",
+    "motif_type": "symmetric_floral",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-008/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-008/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-008/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-008/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-008/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-008/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-008/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-008/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-008/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-008/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-008/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-008/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-008/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-008/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-008/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-008/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-008/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-008/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-009",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 09",
+    "name_en": "ITBXM Tang Guofeng Pattern 09",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "floral_scroll",
+      "guofeng",
+      "red",
+      "repeat",
+      "sparse",
+      "tang"
+    ],
+    "color_family": "red",
+    "density": "sparse",
+    "motif_type": "floral_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-009/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-009/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-009/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-009/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-009/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-009/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-009/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-009/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-009/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-009/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-009/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-009/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-009/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-009/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-009/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-009/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-009/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-009/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-010",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 10",
+    "name_en": "ITBXM Tang Guofeng Pattern 10",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "dense",
+      "dense_background",
+      "guofeng",
+      "orange",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "orange",
+    "density": "dense",
+    "motif_type": "dense_background",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-010/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-010/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-010/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-010/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-010/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-010/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-010/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-010/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-010/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-010/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-010/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-010/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-010/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-010/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-010/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-010/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-010/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-010/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-011",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 11",
+    "name_en": "ITBXM Tang Guofeng Pattern 11",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "green",
+      "guofeng",
+      "linear_scroll",
+      "medium",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "green",
+    "density": "medium",
+    "motif_type": "linear_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-011/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-011/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-011/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-011/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-011/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-011/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-011/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-011/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-011/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-011/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-011/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-011/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-011/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-011/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-011/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-011/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-011/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-011/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-012",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 12",
+    "name_en": "ITBXM Tang Guofeng Pattern 12",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "guofeng",
+      "medium",
+      "purple",
+      "repeat",
+      "symmetric_floral",
+      "tang"
+    ],
+    "color_family": "purple",
+    "density": "medium",
+    "motif_type": "symmetric_floral",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-012/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-012/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-012/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-012/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-012/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-012/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-012/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-012/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-012/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-012/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-012/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-012/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-012/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-012/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-012/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-012/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-012/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-012/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-013",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 13",
+    "name_en": "ITBXM Tang Guofeng Pattern 13",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "guofeng",
+      "linear_scroll",
+      "medium",
+      "neutral",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "neutral",
+    "density": "medium",
+    "motif_type": "linear_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-013/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-013/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-013/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-013/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-013/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-013/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-013/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-013/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-013/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-013/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-013/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-013/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-013/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-013/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-013/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-013/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-013/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-013/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-014",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 14",
+    "name_en": "ITBXM Tang Guofeng Pattern 14",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "cyan",
+      "guofeng",
+      "linear_scroll",
+      "medium",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "cyan",
+    "density": "medium",
+    "motif_type": "linear_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-014/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-014/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-014/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-014/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-014/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-014/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-014/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-014/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-014/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-014/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-014/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-014/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-014/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-014/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-014/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-014/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-014/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-014/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-015",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 15",
+    "name_en": "ITBXM Tang Guofeng Pattern 15",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "floral_scroll",
+      "guofeng",
+      "medium",
+      "repeat",
+      "tang",
+      "yellow_gold"
+    ],
+    "color_family": "yellow_gold",
+    "density": "medium",
+    "motif_type": "floral_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-015/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-015/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-015/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-015/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-015/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-015/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-015/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-015/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-015/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-015/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-015/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-015/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-015/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-015/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-015/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-015/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-015/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-015/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-016",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 16",
+    "name_en": "ITBXM Tang Guofeng Pattern 16",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "dark",
+      "guofeng",
+      "medium",
+      "repeat",
+      "symmetric_floral",
+      "tang"
+    ],
+    "color_family": "dark",
+    "density": "medium",
+    "motif_type": "symmetric_floral",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-016/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-016/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-016/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-016/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-016/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-016/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-016/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-016/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-016/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-016/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-016/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-016/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-016/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-016/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-016/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-016/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-016/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-016/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-017",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 17",
+    "name_en": "ITBXM Tang Guofeng Pattern 17",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "dense",
+      "dense_background",
+      "guofeng",
+      "red",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "red",
+    "density": "dense",
+    "motif_type": "dense_background",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-017/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-017/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-017/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-017/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-017/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-017/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-017/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-017/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-017/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-017/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-017/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-017/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-017/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-017/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-017/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-017/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-017/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-017/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-018",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 18",
+    "name_en": "ITBXM Tang Guofeng Pattern 18",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "guofeng",
+      "medium",
+      "repeat",
+      "rose",
+      "symmetric_floral",
+      "tang"
+    ],
+    "color_family": "rose",
+    "density": "medium",
+    "motif_type": "symmetric_floral",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-018/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-018/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-018/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-018/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-018/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-018/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-018/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-018/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-018/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-018/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-018/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-018/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-018/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-018/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-018/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-018/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-018/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-018/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-019",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 19",
+    "name_en": "ITBXM Tang Guofeng Pattern 19",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "green",
+      "guofeng",
+      "linear_scroll",
+      "repeat",
+      "sparse",
+      "tang"
+    ],
+    "color_family": "green",
+    "density": "sparse",
+    "motif_type": "linear_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-019/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-019/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-019/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-019/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-019/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-019/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-019/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-019/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-019/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-019/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-019/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-019/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-019/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-019/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-019/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-019/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-019/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-019/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-020",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 20",
+    "name_en": "ITBXM Tang Guofeng Pattern 20",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "cyan",
+      "guofeng",
+      "medium",
+      "repeat",
+      "symmetric_floral",
+      "tang"
+    ],
+    "color_family": "cyan",
+    "density": "medium",
+    "motif_type": "symmetric_floral",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-020/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-020/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-020/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-020/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-020/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-020/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-020/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-020/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-020/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-020/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-020/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-020/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-020/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-020/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-020/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-020/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-020/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-020/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-021",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 21",
+    "name_en": "ITBXM Tang Guofeng Pattern 21",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "guofeng",
+      "medium",
+      "red",
+      "repeat",
+      "symmetric_floral",
+      "tang"
+    ],
+    "color_family": "red",
+    "density": "medium",
+    "motif_type": "symmetric_floral",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-021/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-021/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-021/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-021/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-021/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-021/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-021/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-021/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-021/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-021/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-021/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-021/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-021/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-021/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-021/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-021/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-021/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-021/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-022",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 22",
+    "name_en": "ITBXM Tang Guofeng Pattern 22",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "dense",
+      "dense_background",
+      "guofeng",
+      "orange",
+      "repeat",
+      "tang"
+    ],
+    "color_family": "orange",
+    "density": "dense",
+    "motif_type": "dense_background",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-022/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-022/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-022/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-022/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-022/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-022/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-022/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-022/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-022/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-022/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-022/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-022/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-022/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-022/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-022/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-022/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-022/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-022/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-023",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 23",
+    "name_en": "ITBXM Tang Guofeng Pattern 23",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "guofeng",
+      "medium",
+      "repeat",
+      "symmetric_floral",
+      "tang",
+      "yellow_gold"
+    ],
+    "color_family": "yellow_gold",
+    "density": "medium",
+    "motif_type": "symmetric_floral",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-023/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-023/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-023/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-023/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-023/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-023/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-023/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-023/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-023/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-023/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-023/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-023/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-023/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-023/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-023/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-023/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-023/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-023/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  },
+  {
+    "id": "itbxm-cngf-tang-024",
+    "collection": "itbxm-cngf-tang-v1",
+    "dynasty": "tang",
+    "name_zh": "唐风国风纹样 24",
+    "name_en": "ITBXM Tang Guofeng Pattern 24",
+    "author": "IT部小明 / itbxm",
+    "source_status": "itbxm_original",
+    "license_status": "owned_by_itbxm",
+    "license": "MIT",
+    "asset_format": "webp_png",
+    "tags": [
+      "floral_scroll",
+      "guofeng",
+      "neutral",
+      "repeat",
+      "sparse",
+      "tang"
+    ],
+    "color_family": "neutral",
+    "density": "sparse",
+    "motif_type": "floral_scroll",
+    "usage_modes": [
+      "divider",
+      "header_band",
+      "side_border",
+      "subtle_background",
+      "cover_accent",
+      "layered_background"
+    ],
+    "assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-024/tile.webp",
+      "tile_png": "assets/patterns/tang/itbxm-cngf-tang-024/tile.png",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-024/strip-horizontal.webp",
+      "strip_horizontal_png": "assets/patterns/tang/itbxm-cngf-tang-024/strip-horizontal.png",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-024/strip-vertical.webp",
+      "strip_vertical_png": "assets/patterns/tang/itbxm-cngf-tang-024/strip-vertical.png",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-024/cover-accent.webp",
+      "cover_accent_png": "assets/patterns/tang/itbxm-cngf-tang-024/cover-accent.png"
+    },
+    "default_assets": {
+      "tile": "assets/patterns/tang/itbxm-cngf-tang-024/tile.webp",
+      "strip_horizontal": "assets/patterns/tang/itbxm-cngf-tang-024/strip-horizontal.webp",
+      "strip_vertical": "assets/patterns/tang/itbxm-cngf-tang-024/strip-vertical.webp",
+      "cover_accent": "assets/patterns/tang/itbxm-cngf-tang-024/cover-accent.webp"
+    },
+    "repeat": {
+      "tile": "repeat",
+      "strip_horizontal": "repeat-x",
+      "strip_vertical": "repeat-y",
+      "cover_accent": "no-repeat"
+    },
+    "recommended_size": {
+      "divider_height": "32-72px",
+      "header_band_height": "48-96px",
+      "side_border_width": "24-64px",
+      "subtle_background_size": "88-128px",
+      "subtle_background_opacity": "0.04-0.14"
+    },
+    "avoid": [
+      "Do not use dense full-page repeats behind readable body text.",
+      "Do not use catalog previews, corner experiments, or nine-slice frame experiments as production defaults.",
+      "Do not scale small repeat units so large that edge rhythm becomes visually noisy."
+    ],
+    "html_snippets": {
+      "divider": "<div class=\"guofeng-divider\" style=\"height:48px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-024/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 48px;\"></div>",
+      "header_band": "<div class=\"guofeng-header-band\" style=\"height:72px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-024/strip-horizontal.webp');background-repeat:repeat-x;background-size:auto 72px;\"></div>",
+      "side_border": "<aside class=\"guofeng-side-border\" style=\"width:44px;background-image:url('assets/patterns/tang/itbxm-cngf-tang-024/strip-vertical.webp');background-repeat:repeat-y;background-size:44px auto;\"></aside>",
+      "subtle_background": "<section class=\"guofeng-soft-bg\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-024/tile.webp');background-repeat:repeat;background-size:auto;opacity:.10;\"></section>",
+      "cover_accent": "<div class=\"guofeng-cover-accent\" style=\"background-image:url('assets/patterns/tang/itbxm-cngf-tang-024/cover-accent.webp');background-repeat:no-repeat;background-size:cover;background-position:center;\"></div>",
+      "layered_background": "<section class=\"guofeng-layered\" style=\"background-color:#f4ead8;background-image:url('assets/patterns/tang/itbxm-cngf-tang-024/tile.webp');background-repeat:repeat;background-size:auto;background-blend-mode:multiply;\"></section>"
+    },
+    "description_zh": "适合用于网页、PPT、封面和长图中的标题条、分隔线、侧边装饰、低透明底纹和分层叠印背景。",
+    "usage_prompt": "Use this Tang-style Chinese guofeng ornament as a divider, header band, side border, subtle background, cover accent, or layered print texture."
+  }
+]
